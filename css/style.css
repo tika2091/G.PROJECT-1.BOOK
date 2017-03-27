@@ -1,0 +1,80 @@
+/* START CSS */
+
+body {
+	overflow: hidden;
+	background-color: red;
+	background-image: url("images/background1.jpg");
+
+}
+
+#container {
+	overflow: hidden;
+	margin-top: 100px;
+	padding: 0;
+
+}
+
+/* for header*/
+img {
+
+
+/* input area*/
+}
+
+.panel-default {
+	margin-top:-200px;
+	float: left;
+	margin-left: -200px;
+}
+
+.panel-body {
+	background: black;
+}
+
+#input-1 {
+	width: 500px;
+	/*height: 100px;*/
+	background: grey;
+}
+
+#flipbook {
+	margin-top: -150px;
+	overflow: hidden;
+	width: 800px;
+	height: 600px;
+	text-align: center;
+	background-color: black;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: white;
+	color: white;
+}
+
+
+p {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left: 5px;
+	text-align: left;
+}
+
+.page {
+width: 300px;
+height: 500px;
+background-color: #e6eeff;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+color: black;
+}
+
+#page-2 {
+	background-color: yellow;
+}
+
+#flipbook iframe {
+	margin: 0 auto;
+	padding: 100px;
+}
+
+
+
+
