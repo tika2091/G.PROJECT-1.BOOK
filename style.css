@@ -6,6 +6,7 @@ body {
 	height: 100%;
 	width: 96%;
 	max-width: 96%;	
+	background-color: #fafafa;
 }
 
 
@@ -15,11 +16,10 @@ body {
 	height: 100%;
 	max-width: 960px;
 	background-color: #fafafa ;
-	/*background-image: url("background4.jpg");*/
 	background-repeat: no-repeat;
-	border-style: dashed;
+	/*border-style: dashed;
 	border-width: 3px;
-	border-color: black;
+	border-color: black;*/
 	padding-bottom: 200px;
 	
 }
@@ -29,7 +29,7 @@ body {
 	margin-left: 20px;
 	padding: 0;
 	background-color:;
-	height: 100%;
+	
 	width: 60%;
 	display: inline-block;
 
@@ -79,10 +79,17 @@ h5 {
 }
 
 #container {
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	margin-left: 140px;
 
 }
 
+#container-2 {
+	margin-left: 140px;
+}
+img {
+	margin-right: 7px;
+}
 #start-button {
 	background-color: black;
 	color: white;
@@ -92,29 +99,15 @@ h5 {
 	margin-top: 40px;
 }
 
-#javascript {
-	margin-left: 135px;
-	
-}
-
  #javascript:hover {
 	width: 100px;
 	height: 100px;
 }
 
-#james {
-	margin-left: 25px;
-	
-}
 
  #james:hover {
 	width: 100px;
 	height: 100px;
-}
-
-#hamlet {
-	margin-left: 30px;
-	
 }
 
 
@@ -124,30 +117,14 @@ h5 {
 }
 
 
-
-#holes {
-	
-	margin-left: 135px;
-}
-
  #holes:hover {
 	width: 100px;
 	height: 100px;
 }
 
-#clifford {
-	
-	margin-left: 25px;
-}
-
  #clifford:hover {
 	width: 100px;
 	height: 100px;
-}
-
-#journal {
-	
-	margin-left: 25px;
 }
 
  #journal:hover {
@@ -254,3 +231,24 @@ color: black;
 	width: 950px;
 }
 
+/*MEDIA QUEIRY 634px*/
+
+@media screen and (max-width: 640px) {
+
+#main-container {
+	background-color: lightblue;
+	width: 100%;
+	height: 100%;
+}
+
+#master-container {
+	background-color:;
+	max-width: 300px;
+	height: 50%;
+}
+
+img {
+	position: fixed;
+}
+
+}
