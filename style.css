@@ -4,18 +4,53 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	width: 96%;
+	max-width: 96%;
 	overflow: hidden;
 }
 
-#container-3 {
-	margin-top: -50px;
-	margin-bottom: -90px;
+#welcome {
+	float: right;
+	margin-left: 1000px;
+
 }
 
-#main-body {
+
+#main-container {
+	margin: auto;
 	width: 100%;
-	height: 500px;
+	height: 100%;
+	max-width: 960px;
+	background-color: #fafafa ;
+	/*background-image: url("background4.jpg");*/
+	background-repeat: no-repeat;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: black;
 	
+}
+
+#master-container {
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 0;
+	background-color:;
+	height: 100%;
+	width: 60%;
+
+}
+
+#books {
+	margin-top: -298px;
+	margin-left: -85px;
+}
+#shelf-image {
+	margin-top: 50px;
+}
+
+#container {
+	margin-bottom: 20px
+
 }
 
 #start-button {
@@ -23,36 +58,13 @@ body {
 	color: white;
 	width: 405px;
 	height: 40px;
-	margin-left: 105px;
-	margin-top: -200px;
+	margin-left: 95px;
+	margin-top: 40px;
 }
-
-#main-container {
-	margin: 10px;
-	width: 99%;
-	height: 80%;
-	background-image: url("background4.jpg");
-	background-repeat: no-repeat;
-	/*border-style: dashed;*/
-	border-width: 3px;
-	border-color: black;
-	
-
-}
-#container {
-	overflow: hidden;
-	margin-top: 107px;
-	padding: 0;
-	background-color: ;
-	width: 500px;
-	
-
-}
-
 
 #javascript {
 	margin-left: 135px;
-	margin-top: 130px;
+	
 }
 
  #javascript:hover {
@@ -62,7 +74,7 @@ body {
 
 #james {
 	margin-left: 25px;
-	margin-top: 130px;
+	
 }
 
  #james:hover {
@@ -72,7 +84,7 @@ body {
 
 #hamlet {
 	margin-left: 30px;
-	margin-top: 130px;
+	
 }
 
 
@@ -84,7 +96,7 @@ body {
 
 
 #holes {
-	margin-bottom: -120px;
+	
 	margin-left: 135px;
 }
 
@@ -94,7 +106,7 @@ body {
 }
 
 #clifford {
-	margin-bottom: -120px;
+	
 	margin-left: 25px;
 }
 
@@ -104,7 +116,7 @@ body {
 }
 
 #journal {
-	margin-bottom: -120px;
+	
 	margin-left: 25px;
 }
 
@@ -119,13 +131,6 @@ body {
 	border-width: 3px;
 }*/
 
-#welcome {
-	background-color: ;
-	margin-top: -450px;
-	margin-right: 500px;
-	float: right;
-	text-align: center;
-}
 
 h1 {
 	font-size: 60px;
